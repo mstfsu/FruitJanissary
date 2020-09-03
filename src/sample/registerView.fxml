@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-image: url('sample/ninja.jpg');" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.RegisterView">
+   <children>
+      <TextField fx:id="name" layoutX="264.0" layoutY="43.0" promptText="Name" />
+      <Label layoutX="140.0" layoutY="48.0" text="Name" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="137.0" layoutY="151.0" text="Password" textFill="#f2efef">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <PasswordField fx:id="password" layoutX="264.0" layoutY="149.0" promptText="Password" />
+      <Label layoutX="139.0" layoutY="97.0" text="Surname" textFill="#fcf6f6">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="surname" layoutX="264.0" layoutY="92.0" promptText="Surname" />
+      <Button defaultButton="true" layoutX="264.0" layoutY="218.0" mnemonicParsing="false" onAction="#SignUp" text="Sign Up">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#PreviousPage" text="Previous Page" />
+   </children>
+</AnchorPane>

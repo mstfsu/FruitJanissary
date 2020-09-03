@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-image: url('sample/ninja.jpg');;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.StartGame">
+   <children>
+      <Button defaultButton="true" layoutX="178.0" layoutY="110.0" mnemonicParsing="false" onAction="#StartGame" prefHeight="45.0" prefWidth="127.0" text="Play Game">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button defaultButton="true" layoutX="178.0" layoutY="173.0" mnemonicParsing="false" onAction="#ShowScores" prefHeight="54.0" prefWidth="127.0" text="Show Scores">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#GoRegister" prefHeight="32.0" prefWidth="114.0" text="Previous Page">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button defaultButton="true" layoutX="178.0" layoutY="247.0" mnemonicParsing="false" onAction="#ShowYourScore" prefHeight="48.0" prefWidth="127.0" text="Show Your Score">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
